@@ -185,8 +185,8 @@ kexec-tools
 wget
 
 #Kernel
-linux-xanmod
-linux-xanmod-headers
+linux-xanmod-rt
+linux-xanmod-rt-headers
 
 #Linuxarch Core
 xorg
@@ -330,6 +330,7 @@ sdl
 sdl12-compat
 vim-runtime
 vim
+yarn
 zip
 
 #Extras
@@ -411,6 +412,6 @@ chaotic-keyring
 chaotic-mirrorlist
 
 #NVIDIA Drivers & Tools
-nvidia
+nvidia-dkms
 nvidia-utils
 nvidia-settings
